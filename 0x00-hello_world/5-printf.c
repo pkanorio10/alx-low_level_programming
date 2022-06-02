@@ -1,13 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Description: Usin the function printf()
- *
  * Return: Always 0 (Success)
  */
-
 
 int main(void)
 {
