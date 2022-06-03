@@ -6,17 +6,15 @@
 
 
 
-/**
+/*
+ * main - Entry point
  *
- * * main - Entry point
+ * 
  *
- * *
+ * Return: returns 0 when everything works fine
  *
- * * Return: returns 0 when everything works fine
- *
- * *
- *
- * */
+ * 
+ */
 
 
 
@@ -47,7 +45,6 @@ int main(void)
 								return (0);
 
 }
-
 
 
 
