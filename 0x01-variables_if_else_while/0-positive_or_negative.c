@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 
-#include<sddio.h>
+#include<stdio.h>
 
 /**
  * main - Entry point
