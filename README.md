@@ -1,2 +1,1 @@
-#!/bin/bash
-c programming ALX\n
+C -Varables,if.else,while
