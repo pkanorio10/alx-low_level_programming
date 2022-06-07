@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - Function that prints alphabets
- * Descripion: to print alphabets
+ * Description: to print alphabets
  * Return: Always 0
  */
 
