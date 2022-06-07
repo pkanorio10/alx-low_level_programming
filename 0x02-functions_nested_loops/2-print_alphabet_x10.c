@@ -8,10 +8,10 @@
  */
 void print_alphabet_x10(void)
 {
-	int time, count;
-	for (time = 1; time <= 10; time++)
-	{
-		putchar(count);
-	}
-        putchar('\n');
+int time, count;
+for (time = 1; time <= 10; time++)
+{
+putchar(count);
+}
+putchar('\n');
 }
