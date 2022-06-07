@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include<main.h>
 
 /**
- * main- prints out _prchar
- * followed by a new line
+ * main-return a print statement wih a new line
+ *
  * return 0 success
  */
 
-int main(void)
+int main (void)
 {
 	printf("_putchar\n");
-	return (0);
-}
 
+	return 0;
+}
