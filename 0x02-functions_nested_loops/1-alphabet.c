@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,5 +14,5 @@ for (count = 'a'; count <= 'z'; count++)
 {
 _putchar(count);
 }
-_putchar(count);
+_putchar('\n');
 }
