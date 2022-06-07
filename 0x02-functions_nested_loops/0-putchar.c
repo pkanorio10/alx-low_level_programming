@@ -1,19 +1,20 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-/**
- * main print to screen
- * Return 0
- *
+/*
+ * main -prints a new line
+ * Returns 0
  */
-int main (void)
-{
-	char c[]= "_putchar";
-	int i;
 
-	for (i=0,i < 8; i++);
+int main(void)
+{
+	char c[8] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(c[i]);
+		putchar(c[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
