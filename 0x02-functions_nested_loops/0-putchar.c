@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
- * main -prints a new line
- * Returns 0
+/**
+ *  main - this is my code
+ *
+ *  Return: Return 0
  */
 
 int main(void)
