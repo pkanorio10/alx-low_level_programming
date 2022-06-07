@@ -1,17 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * print_alphabet - Function that prints alphabets
- * Descripion: to print alphabets
- * Return: Always 0
+ * print alhabet-print alphabet in lowercase newline
+ *
+ * Return: return 0
  */
-void print_alphabet(void)
+
+void print_aplhabet(void)
 {
-int count;
-for (count = 'a'; count <= 'z'; count++)
-{
-_putchar(count);
-}
-_putchar('\n');
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+
+	}
+	_putchar('\' );
 }
