@@ -1,18 +1,17 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * print_last_digit - This program prints the last digit
- * Description: To print last digit
- * Return: Return the value of the last digit
+ * print_last_digit - prints last digit of integer inpu
+ * @n: integer to modify
+ *
+ * Return: l
  */
-int print_last_digit(int num)
+int print_last_digit(int n)
 {
-int res;
-res = num % 10;
-if (res < 0)
-return(-1 * res);
-else
-return (res);
+	int l, p;
+	l = n % 10;
+	if (l < 0)
+		l = -l;
+	p = '0' + l;
+	_putchar(p);
+	return (l);
 }
-
