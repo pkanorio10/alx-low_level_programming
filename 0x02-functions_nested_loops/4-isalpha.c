@@ -3,7 +3,7 @@
 /**
  * _isalpha - This program checks for alphabetic character
  * @c: input character 
- *  Return: return 1 if c is lower and 0 if otherwise
+ * Return: return 1 if c is lower and 0 if otherwise
  */
 int _isalpha(int c)
 {
