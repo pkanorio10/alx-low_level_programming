@@ -2,6 +2,7 @@
 
 /**
  * times_table - prints the times table up to 9
+ *
  * Return: void
  */
 
@@ -17,11 +18,16 @@ void times_table(void)
 			d = c / 10;
 			e = c % 10;
 			if (b == 0)
-				_putchar('0')
+				_putchar('0');
 			else if (c < 10)
 			{
 				_putchar(' ');
-				_putchar('0' + e)
+				_putchar('0' + e);
+			}
+			else
+			{
+				_putchar('0' + d);
+				_putchar('0' + e);
 			}
 			if (b < 9)
 			{
@@ -32,4 +38,5 @@ void times_table(void)
 				_putchar('\n');
 		}
 	}
+
 }
