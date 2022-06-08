@@ -2,10 +2,9 @@
 #include "main.h"
 
 /**
- * abs - This program prints absolute value of an integer
- * @num: the input
- * Description: To print an absolute value
- * Return: return an int
+ *  _abs - returns absolute value of an int
+ * @n: integer from which to get an absolute value
+ *  Return: Void
  */
 int _abs(int num)
 {
