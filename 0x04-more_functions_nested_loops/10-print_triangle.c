@@ -3,11 +3,13 @@
 /**
  * print_triangle - prints triangle
  * @size: print size
- * Return: Always 0
+ * Return: Always 0.
  */
 
 void print_triangle(int size)
+
 {
+
 
 int i;
 int z;
@@ -28,6 +30,7 @@ d--;
 
 _putchar ('\n');
 
+
 }
 
 }
@@ -37,3 +40,5 @@ else
 _putchar ('\n');
 }
 }
+
+
